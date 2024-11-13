@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etEditNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEditApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apellidos"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEditGrupoSanguineo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/grupo_sangu_neo"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etEditNuhsa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nuhsa"
+        android:inputType="text" />
+
+</LinearLayout>

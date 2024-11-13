@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RealTimeDatabase</string>
+    <string name="mostrar_pacientes">Mostrar Pacientes</string>
+    <string name="buscar_paciente">Buscar Paciente</string>
+    <string name="nuhsapaciente">NuhsaPaciente</string>
+    <string name="nuevo_paciente">Nuevo Paciente</string>
+    <string name="nuhsa">NUHSA</string>
+    <string name="grupo_sangu_neo">Grupo Sanguíneo</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="nombre">Nombre</string>
+    <string name="editar_paciente">Editar Paciente</string>
+    <string name="borrar_paciente">Borrar Paciente</string>
+</resources>

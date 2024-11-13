@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "677802017324",
+    "project_id": "fir-salud-fb085",
+    "storage_bucket": "fir-salud-fb085.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677802017324:android:ebca1cea5667d8c3e04789",
+        "android_client_info": {
+          "package_name": "us.mastersalud.realtimedatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCofevbWB4EMlT790hWpLCzojPZbemNAeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

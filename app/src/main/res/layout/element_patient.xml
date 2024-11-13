@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">  <!-- Cambié match_parent por wrap_content -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvApellidos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apellidos"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvGrupoSanguineo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grupo_sangu_neo"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvNuhsa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nuhsa"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:id="@+id/btnContainerEditDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+            <!-- Edit Button -->
+            <ImageButton
+                android:id="@+id/btnEditPaciente"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:background="@color/color_edit_patient"
+                android:contentDescription="@string/editar_paciente"
+                android:src="@android:drawable/ic_menu_edit"
+                android:layout_marginEnd="12dp"/>
+
+            <ImageButton
+                android:id="@+id/btnDeletePaciente"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:background="@color/color_delete_patient"
+                android:contentDescription="@string/borrar_paciente"
+                android:src="@android:drawable/ic_delete"
+                android:layout_marginEnd="12dp"/>
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
