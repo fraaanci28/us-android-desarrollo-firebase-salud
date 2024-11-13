@@ -1,6 +1,5 @@
 package us.mastersalud.realtimedatabase;
 
-import com.google.firebase.database.Exclude;
 
 public class Paciente {
     private String nombre;

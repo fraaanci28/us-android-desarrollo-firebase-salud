@@ -1,4 +1,4 @@
-package us.mastersalud.realTimeDatabase;
+package us.mastersalud.realtimedatabase;
 
 import org.junit.Test;
 
